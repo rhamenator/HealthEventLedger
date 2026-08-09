@@ -1,0 +1,35 @@
+[
+  {
+    "occurred_at": "2026-01-02T07:30:00-05:00",
+    "event_type": "sleep",
+    "name": "Recorded sleep",
+    "duration_minutes": 420,
+    "notes": "Fictional example",
+    "tags": ["synthetic"]
+  },
+  {
+    "occurred_at": "2026-01-02T10:30:00-05:00",
+    "event_type": "symptom",
+    "name": "Head discomfort",
+    "severity": 4,
+    "duration_minutes": 45,
+    "notes": "Fictional example; no diagnosis implied",
+    "tags": ["synthetic", "workday"]
+  },
+  {
+    "occurred_at": "2026-01-02T10:45:00-05:00",
+    "event_type": "medication",
+    "name": "User-recorded medication event",
+    "quantity": 1,
+    "unit": "recorded dose",
+    "notes": "Fictional entry; not advice",
+    "tags": ["synthetic"]
+  },
+  {
+    "occurred_at": "2026-01-03T14:00:00Z",
+    "event_type": "activity",
+    "name": "Short walk",
+    "duration_minutes": 20,
+    "tags": ["synthetic"]
+  }
+]
