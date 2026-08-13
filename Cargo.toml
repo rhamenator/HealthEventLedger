@@ -2,6 +2,15 @@
 name = "health-event-ledger"
 version = "0.1.0"
 edition = "2024"
+authors = ["Richard M. Hamilton"]
+description = "Local-first health event diary and export application"
+repository = "https://github.com/rhamenator/HealthEventLedger"
+
+[package.metadata.wix]
+upgrade-guid = "E3344B43-630A-428E-B9F2-F224B225F90D"
+path-guid = "7BE50B61-C861-4DAB-9677-CA0FDBB9B9C7"
+license = false
+eula = false
 
 [dependencies]
 anyhow = "1"
@@ -12,3 +21,8 @@ serde_json = "1"
 sha2 = "0.10"
 thiserror = "2"
 time = { version = "0.3.55", features = ["formatting", "parsing"] }
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
