@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/logo.png" alt="HealthEventLedger logo" width="220">
+</p>
+
 # HealthEventLedger
 
 HealthEventLedger is a fast, local-first health event diary for recording structured observations and preparing concise material for a clinician conversation. It normalizes strict JSON into SQLite, builds chronological timelines and descriptive daily aggregates, and exports full-detail CSV plus a polished summary PDF.
